@@ -6,7 +6,7 @@ body {
 
 .qrcode-container {
     background-color: white;
-    border-radius: 30px;
+    border-radius: 18px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
     position: absolute;
     top: 50%;
@@ -26,6 +26,7 @@ body {
 .qrcode-image {
     width: 290px;
     border-radius: 10px;
+    margin-bottom: 8px;
 }
 
 h1 {
@@ -34,6 +35,7 @@ h1 {
     width: 280px;
     margin-bottom: 0;
     color: hsl(218, 44%, 22%);
+    line-height: 25px;
 }
 
 p {
@@ -41,6 +43,7 @@ p {
     text-align: center;
     width: 250px;
     color: hsl(216, 15%, 48%);
+    line-height: 22px;
 }
 
 .attribution {
