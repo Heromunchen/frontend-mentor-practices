@@ -27,8 +27,8 @@ I did this project to sharpen my HTML and CSS skills. It was the first time i bu
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-qr-code-using-inline-flexbox-eETiB6fo2W)
+- [Live site URL](https://heromunchen.github.io/frontend-mentor-practice/)
 
 ## My process
 
@@ -72,10 +72,9 @@ Although i used inline-flex on the container to make it adjust to the html conte
 
 ### Useful resources
 
-- [Supersimpledev](https://www.youtube.com/@SuperSimpleDev) - This helped me for learning the basics of html and css aswell as git. I really liked this channel and will use it going forward.
+- [Supersimpledev](https://www.youtube.com/@SuperSimpleDev) - This channel helped me for learning the basics of html and css aswell as git. I really liked this channel and will use it going forward.
 - [vanzasetia](https://github.com/vanzasetia/designo-multi-page-website#author) - This repository helped me with how to write README.md and will continue using it as a guide going forward.
 
 ## Author
 
-- Website - [Theo Stevanno Paskah](https://www.your-site.com)
 - Frontend Mentor - [@Heromunchen](https://www.frontendmentor.io/profile/yourusername)
