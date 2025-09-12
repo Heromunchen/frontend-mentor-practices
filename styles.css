@@ -28,5 +28,74 @@
 
 body {
   background-color: hsl(47, 88%, 63%);
-  font-family: 'Figtree', 'Arial';
+  font-family: 'Figtree';
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 100vh;
+  margin: 0;
+}
+
+article {
+  background-color: white;
+  padding: 13px 13px 10px 13px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 1);
+
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  place-self: center;
+}
+
+.article-picture {
+  width: 230px;
+  border-radius: 8px;
+}
+
+.article-type {
+  align-self: flex-start;
+  font-size: 9px;
+  font-weight: 800;
+  background-color: hsl(47, 88%, 63%);
+  padding: 3px 6px;
+  border-radius: 2px;
+  margin-top: 13px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.article-date {
+  font-weight: 600;
+  font-size: 9px
+}
+
+.article-title {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 0px;
+}
+
+.article-description {
+  font-weight: 500;
+  font-size: 11px;
+  width: 220px;
+  color: hsl(0, 0%, 42%);
+  line-height: 15px;
+}
+
+.profile-picture {
+  width: 20px;
+}
+
+.profile-name {
+  font-size: 8px;
+  font-weight: 800;
+  margin-left: 7px;
 }
