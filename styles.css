@@ -53,16 +53,16 @@ body {
 }
 
 .article-picture {
-  width: 230px;
+  width: 250px;
   border-radius: 8px;
 }
 
 .article-type {
   align-self: flex-start;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 800;
   background-color: hsl(47, 88%, 63%);
-  padding: 3px 6px;
+  padding: 3px 10px;
   border-radius: 2px;
   margin-top: 13px;
 }
@@ -74,19 +74,19 @@ body {
 
 .article-date {
   font-weight: 600;
-  font-size: 9px
+  font-size: 10px
 }
 
 .article-title {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 800;
   margin: 0px;
 }
 
 .article-description {
   font-weight: 500;
-  font-size: 11px;
-  width: 220px;
+  font-size: 12px;
+  width: 250px;
   color: hsl(0, 0%, 42%);
   line-height: 15px;
 }
