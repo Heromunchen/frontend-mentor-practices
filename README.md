@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/simple-focus-and-hover-blog-preview-effects-Mz_qGRsdJx)
 - [live site URL](https://heromunchen.github.io/frontend-mentor-practice-blogpreview/)
 
 ## My process
