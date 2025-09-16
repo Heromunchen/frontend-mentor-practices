@@ -68,12 +68,20 @@ nav {
   gap: 17px
 }
 
-nav div {
+nav a {
   background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
   font-size: 14px;
   font-weight: 700;
+  text-decoration: none;
 
   padding: 15px 100px;
   border-radius: 7px;
+  transition: all 0.15s;
+}
+
+nav a:hover, nav a:focus {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
 }
