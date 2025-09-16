@@ -93,6 +93,10 @@ nav a:hover, nav a:focus {
     margin: 0px 20px;
   }
 
+  .profile-description {
+    font-size: 12px;
+  }
+
   nav a {
     padding: 15px 80px;
     font-size: 12px;
