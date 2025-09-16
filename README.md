@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-social-links-profile-kdsFkUYw-7)
 - [Live site URL](https://heromunchen.github.io/frontend-mentor-practice-social-links-profile/)
 
 ## My process
@@ -70,4 +70,4 @@ I am pretty happy with the code in this project. I would improve on code efficie
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Heromunchen](https://www.frontendmentor.io/profile/Heromunchen)
