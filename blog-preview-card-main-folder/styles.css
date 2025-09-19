@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/static/Figtree-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: 'Figtree';
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 100vh;
+  margin: 0;
+}
+
+.article-card {
+  background-color: white;
+  padding: 13px 13px 10px 13px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 1);
+  transition: all 0.5s ease;
+
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  place-self: center;
+}
+
+.article-picture {
+  width: 250px;
+  border-radius: 8px;
+}
+
+.article-type {
+  align-self: flex-start;
+  font-size: 10px;
+  font-weight: 800;
+  background-color: hsl(47, 88%, 63%);
+  padding: 3px 10px;
+  border-radius: 2px;
+  margin-top: 13px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.article-date {
+  font-weight: 600;
+  font-size: 10px
+}
+
+.article-title {
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0px;
+}
+
+.article-description {
+  font-weight: 500;
+  font-size: 12px;
+  width: 250px;
+  color: hsl(0, 0%, 42%);
+  line-height: 15px;
+}
+
+.profile-picture {
+  width: 20px;
+  transition: all 0.15s ease;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-size: 8px;
+  font-weight: 800;
+  margin-left: 7px;
+}
+
+.article-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  border: none;
+}
+
+.profile-picture:focus, .profile-picture:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  outline: none;
+  cursor: pointer;
+}
+
